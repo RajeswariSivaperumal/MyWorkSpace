@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="149586" started-at="2023-02-15T21:13:11Z" finished-at="2023-02-15T21:15:40Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="149586" started-at="2023-02-15T21:13:11Z" finished-at="2023-02-15T21:15:40Z">
+      <class name="hitachi.tests.HitachiSearchTest">
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="launchURL" is-config="true" duration-ms="32617" started-at="2023-02-16T02:43:11Z" finished-at="2023-02-16T02:43:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="checkURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="checkURL" duration-ms="296" started-at="2023-02-16T02:43:43Z" description="Check whether correct URL launched" finished-at="2023-02-16T02:43:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkURL -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="closeBrowser" is-config="true" duration-ms="1082" started-at="2023-02-16T02:43:44Z" finished-at="2023-02-16T02:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="launchURL" is-config="true" duration-ms="11146" started-at="2023-02-16T02:43:45Z" finished-at="2023-02-16T02:43:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="noSearchResults()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="noSearchResults" duration-ms="4639" started-at="2023-02-16T02:43:56Z" description="Check if default message displayed if no match found for the keyword searched" finished-at="2023-02-16T02:44:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- noSearchResults -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="closeBrowser" is-config="true" duration-ms="876" started-at="2023-02-16T02:44:00Z" finished-at="2023-02-16T02:44:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="launchURL" is-config="true" duration-ms="10187" started-at="2023-02-16T02:44:01Z" finished-at="2023-02-16T02:44:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="nopagination()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="nopagination" duration-ms="4532" started-at="2023-02-16T02:44:11Z" description="Check if no pagination displayed if search result count is less than 10" finished-at="2023-02-16T02:44:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- nopagination -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="closeBrowser" is-config="true" duration-ms="877" started-at="2023-02-16T02:44:16Z" finished-at="2023-02-16T02:44:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="launchURL" is-config="true" duration-ms="11633" started-at="2023-02-16T02:44:17Z" finished-at="2023-02-16T02:44:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="searchKeyword()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="searchKeyword" duration-ms="4096" started-at="2023-02-16T02:44:28Z" description="Check if search result displayed if match found for the keyword searched" finished-at="2023-02-16T02:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- searchKeyword -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="closeBrowser" is-config="true" duration-ms="1255" started-at="2023-02-16T02:44:33Z" finished-at="2023-02-16T02:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="launchURL" is-config="true" duration-ms="10386" started-at="2023-02-16T02:44:34Z" finished-at="2023-02-16T02:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="verifyPageTitle()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="verifyPageTitle" duration-ms="29" started-at="2023-02-16T02:44:44Z" description="Check whether correct page title displayed" finished-at="2023-02-16T02:44:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="closeBrowser" is-config="true" duration-ms="1003" started-at="2023-02-16T02:44:44Z" finished-at="2023-02-16T02:44:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="launchURL" is-config="true" duration-ms="29366" started-at="2023-02-16T02:44:45Z" finished-at="2023-02-16T02:45:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="verifySearchResultHyperlinkNavigation()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="verifySearchResultHyperlinkNavigation" duration-ms="5193" started-at="2023-02-16T02:45:15Z" description="Check if user navigated to correct page upon clicking on search result link" finished-at="2023-02-16T02:45:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultHyperlinkNavigation -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="closeBrowser" is-config="true" duration-ms="1004" started-at="2023-02-16T02:45:20Z" finished-at="2023-02-16T02:45:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchURL()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="launchURL" is-config="true" duration-ms="14707" started-at="2023-02-16T02:45:21Z" finished-at="2023-02-16T02:45:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchURL -->
+        <test-method status="PASS" signature="verifySearchResultsCount()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="verifySearchResultsCount" duration-ms="3402" started-at="2023-02-16T02:45:36Z" description="Check if total no. of search results matching with the count displayed in search header" finished-at="2023-02-16T02:45:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchResultsCount -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:hitachi.tests.HitachiSearchTest@6321e813]" name="closeBrowser" is-config="true" duration-ms="1215" started-at="2023-02-16T02:45:39Z" finished-at="2023-02-16T02:45:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- hitachi.tests.HitachiSearchTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
